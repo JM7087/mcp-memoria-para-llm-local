@@ -1,0 +1,15 @@
+# Dependências
+/vendor/
+
+# Dados
+/data/*.db
+/data/error.log
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

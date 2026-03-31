@@ -1,0 +1,8 @@
+{
+    "servers": {
+        "mcp-memoria": {
+            "command": "php",
+            "args": ["${workspaceFolder}/server.php"]
+        }
+    }
+}

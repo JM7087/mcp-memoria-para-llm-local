@@ -1,0 +1,40 @@
+{
+    "name": "mcp-memoria/mcp-memoria-php",
+    "description": "MCP Server de memória persistente para LLMs usando PHP e SQLite",
+    "version": "1.0.0",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MCP Memoria",
+            "email": "contato@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "ext-pdo": "*",
+        "ext-pdo_sqlite": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "McpMemoria\\": "src/"
+        }
+    },
+    "scripts": {
+        "start": "php server.php"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "keywords": [
+        "mcp",
+        "llm",
+        "memory",
+        "sqlite",
+        "ai",
+        "context"
+    ]
+}
