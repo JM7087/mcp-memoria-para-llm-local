@@ -31,9 +31,9 @@ php -v
 php -m | findstr sqlite
 ```
 
-## Configuração no VS Code
+## Conexão com o LM Studio
 
-Adicione o conteúdo do arquivo `.vscode/mcp.json` no mcp.json do lmstudio, ajustando o caminho para o `server.php`:
+Adicione o conteúdo abaixo no mcp.json do LM Studio, ajustando o caminho para o `server.php`:
 
 ```json
 {
